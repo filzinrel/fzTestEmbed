@@ -1,1 +1,133 @@
-
+{
+  "title": "Butterfly",
+  "mediaUrl": "https://filzinrel.github.io/fzTestEmbed/",
+  "startTempo": 135,
+  "routines": [
+    {
+      "name": "INTRO",
+      "steps": [
+        { "beat": 2,  "direction": "LEFT"  },
+        { "beat": 4,  "direction": "UP"    },
+        { "beat": 6,  "direction": "RIGHT" },
+        { "beat": 8,  "direction": "DOWN"  },
+        { "beat": 10, "direction": "LEFT"  },
+        { "beat": 12, "direction": "UP"    },
+        { "beat": 14, "direction": "RIGHT" },
+        { "beat": 16, "direction": "DOWN"  },
+        { "beat": 18, "direction": "LEFT"  },
+        { "beat": 20, "direction": "UP"    },
+        { "beat": 22, "direction": "RIGHT" },
+        { "beat": 24, "direction": "DOWN"  },
+        { "beat": 26, "direction": "LEFT"  },
+        { "beat": 28, "direction": "UP"    },
+        { "beat": 30, "direction": "RIGHT" },
+        { "beat": 32, "direction": "DOWN"  },
+        { "beat": 34, "direction": "LEFT"  },
+        { "beat": 36, "direction": "UP"    }
+      ]
+    },
+    {
+      "name": "R1",
+      "steps": [
+        { "beat": 1, "direction": "LEFT"  },
+        { "beat": 2, "direction": "UP"    },
+        { "beat": 3, "direction": "RIGHT" },
+        { "beat": 4, "direction": "DOWN"  },
+        { "beat": 5, "direction": "LEFT"  },
+        { "beat": 6, "direction": "UP"    },
+        { "beat": 7, "direction": "RIGHT" },
+        { "beat": 8, "direction": "DOWN"  }
+      ]
+    },
+    {
+      "name": "R2",
+      "steps": [
+        { "beat": 1, "direction": "LEFT"  },
+        { "beat": 2, "direction": "DOWN"  },
+        { "beat": 3, "direction": "RIGHT" },
+        { "beat": 4, "direction": "UP"    },
+        { "beat": 5, "direction": "LEFT"  },
+        { "beat": 6, "direction": "DOWN"  },
+        { "beat": 7, "direction": "RIGHT" },
+        { "beat": 8, "direction": "UP"    }
+      ]
+    },
+    {
+      "name": "R3",
+      "steps": [
+        { "beat": 1, "direction": "LEFT"  },
+        { "beat": 2, "direction": "RIGHT" },
+        { "beat": 3, "direction": "UP"    },
+        { "beat": 4, "direction": "DOWN"  },
+        { "beat": 5, "direction": "LEFT"  },
+        { "beat": 6, "direction": "RIGHT" },
+        { "beat": 7, "direction": "UP"    },
+        { "beat": 8, "direction": "DOWN"  }
+      ]
+    },
+    {
+      "name": "R4",
+      "steps": [
+        { "beat": 1, "direction": "UP"    },
+        { "beat": 2, "direction": "DOWN"  },
+        { "beat": 3, "direction": "LEFT"  },
+        { "beat": 4, "direction": "RIGHT" },
+        { "beat": 5, "direction": "UP"    },
+        { "beat": 6, "direction": "DOWN"  },
+        { "beat": 7, "direction": "LEFT"  },
+        { "beat": 8, "direction": "RIGHT" }
+      ]
+    }
+  ],
+  "songSequence": [
+    { "routine": "INTRO", "startBeat": 1   },
+    { "routine": "R1",    "startBeat": 37  },
+    { "routine": "R2",    "startBeat": 45  },
+    { "routine": "R3",    "startBeat": 53  },
+    { "routine": "R4",    "startBeat": 61  },
+    { "routine": "R1",    "startBeat": 69  },
+    { "routine": "R2",    "startBeat": 77  },
+    { "routine": "R3",    "startBeat": 85  },
+    { "routine": "R4",    "startBeat": 93  },
+    { "routine": "R1",    "startBeat": 101 },
+    { "routine": "R2",    "startBeat": 109 },
+    { "routine": "R3",    "startBeat": 117 },
+    { "routine": "R4",    "startBeat": 125 },
+    { "routine": "R1",    "startBeat": 133 },
+    { "routine": "R2",    "startBeat": 141 },
+    { "routine": "R3",    "startBeat": 149 },
+    { "routine": "R4",    "startBeat": 157 },
+    { "routine": "R1",    "startBeat": 165 },
+    { "routine": "R2",    "startBeat": 173 },
+    { "routine": "R3",    "startBeat": 181 },
+    { "routine": "R4",    "startBeat": 189 },
+    { "routine": "R1",    "startBeat": 197 },
+    { "routine": "R2",    "startBeat": 205 },
+    { "routine": "R3",    "startBeat": 213 },
+    { "routine": "R4",    "startBeat": 221 },
+    { "routine": "R1",    "startBeat": 229 },
+    { "routine": "R2",    "startBeat": 237 },
+    { "routine": "R3",    "startBeat": 245 },
+    { "routine": "R4",    "startBeat": 253 },
+    { "routine": "R1",    "startBeat": 261 },
+    { "routine": "R2",    "startBeat": 269 },
+    { "routine": "R3",    "startBeat": 277 },
+    { "routine": "R4",    "startBeat": 285 },
+    { "routine": "R1",    "startBeat": 293 },
+    { "routine": "R2",    "startBeat": 301 },
+    { "routine": "R3",    "startBeat": 309 },
+    { "routine": "R4",    "startBeat": 317 },
+    { "routine": "R1",    "startBeat": 325 },
+    { "routine": "R2",    "startBeat": 333 },
+    { "routine": "R3",    "startBeat": 341 },
+    { "routine": "R4",    "startBeat": 349 },
+    { "routine": "R1",    "startBeat": 357 },
+    { "routine": "R2",    "startBeat": 365 },
+    { "routine": "R3",    "startBeat": 373 },
+    { "routine": "R4",    "startBeat": 381 },
+    { "routine": "R1",    "startBeat": 389 },
+    { "routine": "R2",    "startBeat": 397 },
+    { "routine": "R3",    "startBeat": 405 },
+    { "routine": "R4",    "startBeat": 413 }
+  ]
+}
