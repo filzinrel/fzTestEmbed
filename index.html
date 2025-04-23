@@ -17,11 +17,12 @@ Your browser does not support the video tag.
       }
     (function() {
       let vid = document.getElementById("main-video");
+      const url = window.location;
+      var source = getAnchorFromURL(url);
+      vid.src = source;
       setTimeout(()=>
       {      
-          const url = window.location;
-        var source = getAnchorFromURL(url);
-          vid.src = source;
+          
           vid.play();
           },2000);
           })();
