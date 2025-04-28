@@ -66,6 +66,6 @@
     }
   ],
   "songSequence": [
-    { "routine": "INTRO", "startb": 1   },
+    { "routine": "INTRO", "startBeat": 1   },
   ]
 }
