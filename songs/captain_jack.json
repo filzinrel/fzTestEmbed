@@ -61,9 +61,7 @@
         { "beat": 106,"duration": "LEFT"  },
         { "beat": 108,"duration": "UP"    }
       ]
-    }
-    ]
-    }
+    }    
   ],
   "songSequence": [
     { "routine": "INTRO", "startBeat": 1   },
